@@ -2,6 +2,8 @@
 
 
 import cv2
+
+
 faceCascade = cv2.CascadeClassifier('Cascades/haarcascades/HAARCASCADE_FRONTALFACE_DEFAULT.xml')
 
 
