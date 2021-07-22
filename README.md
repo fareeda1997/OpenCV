@@ -5,6 +5,8 @@ import cv2
 faceCascade = cv2.CascadeClassifier('Cascades/haarcascades/HAARCASCADE_FRONTALFACE_DEFAULT.xml')
 
 
+
+
 eye_cascade = cv2.CascadeClassifier('Cascades/haarcascades/HAARCASCADE_EYE.xml')
 
 
@@ -19,7 +21,6 @@ cap.set(4,480) # set Height
 
 
 while True:
-
     ret, img = cap.read()
     
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
